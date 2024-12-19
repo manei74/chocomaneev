@@ -1,0 +1,20 @@
+.assortment__link {
+  list-style: none;
+}
+
+.assortment {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+p {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.assortment__img {
+  height: 200px;
+  width: 100%;
+  border-radius: 50%;
+}
