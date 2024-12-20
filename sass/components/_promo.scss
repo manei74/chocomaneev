@@ -1,4 +1,5 @@
 .promo {
+  padding-top: 20px;
 }
 
 .promo__wrapper {
@@ -42,20 +43,32 @@
   position: relative;
   z-index: 2;
   display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  padding-top: 150px;
+  flex-flow: row nowrap;
+  justify-content: space-around;
 }
 
 .promo__buttons {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
+  padding-top: 280px;
+}
+
+.button_shop {
+  background-color: $color-secondary;
+  border-radius: 20px;
+}
+
+.button_shop:hover {
+  background-color: $color-text;
+  color: $color-secondary;
 }
 
 h1 {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
-  color: white;
+  color: black;
+  -webkit-text-stroke: 1px #ffffff;
+  text-stroke: 1px #ffffff;
 }

@@ -1,7 +1,7 @@
 .header {
   background: $color-secondary;
   padding: 16px 0 16px 0;
-  color: $color-primary;
+  color: $color-text;
 }
 
 .header__wrapper {
@@ -33,4 +33,8 @@
   list-style: none;
   padding: 0 10px;
   cursor: pointer;
+}
+
+.navigation__link:hover {
+  color: $color-light;
 }

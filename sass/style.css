@@ -57,18 +57,22 @@ h4 {
   padding: 0;
   border: none;
   background: none;
-  color: #c74375;
+  color: #392e2c;
+}
+
+.button_search:hover {
+  color: #ffffff;
 }
 
 .button_basket {
   padding: 0;
   border: none;
   background: none;
-  color: #c74375;
+  color: #392e2c;
 }
 
-.button_search:hover {
-  text-decoration: underline;
+.button_basket:hover {
+  color: #ffffff;
 }
 
 .wrapper {
@@ -79,7 +83,7 @@ h4 {
 .header {
   background: #81a7cb;
   padding: 16px 0 16px 0;
-  color: #c74375;
+  color: #392e2c;
 }
 
 .header__wrapper {
@@ -113,8 +117,16 @@ h4 {
   cursor: pointer;
 }
 
+.navigation__link:hover {
+  color: #ffffff;
+}
+
 .footer__wrapper {
   background-color: #81a7cb;
+}
+
+.promo {
+  padding-top: 20px;
 }
 
 .promo__wrapper {
@@ -151,22 +163,34 @@ h4 {
   position: relative;
   z-index: 2;
   display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  padding-top: 150px;
+  flex-flow: row nowrap;
+  justify-content: space-around;
 }
 
 .promo__buttons {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
+  padding-top: 280px;
+}
+
+.button_shop {
+  background-color: #81a7cb;
+  border-radius: 20px;
+}
+
+.button_shop:hover {
+  background-color: #392e2c;
+  color: #81a7cb;
 }
 
 h1 {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
-  color: white;
+  color: black;
+  -webkit-text-stroke: 1px #ffffff;
+  text-stroke: 1px #ffffff;
 }
 
 .assortment__link {

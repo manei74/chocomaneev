@@ -14,7 +14,11 @@
   padding: 0;
   border: none;
   background: none;
-  color: $color-primary;
+  color: $color-text;
+}
+
+.button_search:hover {
+  color: $color-light;
 }
 
 // .button_signin {
@@ -27,9 +31,9 @@
   padding: 0;
   border: none;
   background: none;
-  color: $color-primary;
+  color: $color-text;
 }
 
-.button_search:hover {
-  text-decoration: underline;
+.button_basket:hover {
+  color: $color-light;
 }
