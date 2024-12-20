@@ -37,3 +37,22 @@
 .button_basket:hover {
   color: $color-light;
 }
+
+#backtotop {
+  position: fixed;
+  bottom: 20px; /* Distance from the bottom */
+  right: 20px; /* Distance from the right */
+  padding: 10px 15px;
+  background-color: $color-secondary; /* Button color */
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000; /* Ensure it stays above other elements */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#backtotop:hover {
+  background-color: $color-text; /* Hover color */
+  color: $color-secondary;
+}

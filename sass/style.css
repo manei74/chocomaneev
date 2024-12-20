@@ -75,6 +75,25 @@ h4 {
   color: #ffffff;
 }
 
+#backtotop {
+  position: fixed;
+  bottom: 20px; /* Distance from the bottom */
+  right: 20px; /* Distance from the right */
+  padding: 10px 15px;
+  background-color: #81a7cb; /* Button color */
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000; /* Ensure it stays above other elements */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#backtotop:hover {
+  background-color: #392e2c; /* Hover color */
+  color: #81a7cb;
+}
+
 .wrapper {
   max-width: 1200px;
   margin: auto;
