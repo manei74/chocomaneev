@@ -311,4 +311,9 @@ p {
   width: 16px;
 }
 
+.about_us {
+  display: flex;
+  justify-content: center;
+}
+
 /*# sourceMappingURL=style.css.map */
