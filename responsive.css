@@ -1,0 +1,22 @@
+@media (max-width: 480px) {
+  .assortment__img {
+    height: 100px;
+  }
+
+  .bestsellers__img {
+    height: 150px;
+  }
+
+  .review {
+    display: none;
+  }
+
+  .footer__wrapper {
+    background-color: #81a7cb;
+  }
+
+  .promo__wrapper {
+    position: relative;
+    width: 480px;
+  }
+}
