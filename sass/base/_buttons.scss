@@ -38,7 +38,28 @@
   color: $color-light;
 }
 
+.button_shop {
+  background-color: $color-secondary;
+  border-radius: 20px;
+}
+
+.button_shop:hover {
+  background-color: $color-text;
+  color: $color-secondary;
+}
+
+.button_allproducts {
+  background-color: $color-secondary;
+  border-radius: 20px;
+}
+
+.button_allproducts:hover {
+  background-color: $color-text;
+  color: $color-secondary;
+}
+
 #backtotop {
+  display: none;
   position: fixed;
   bottom: 20px; /* Distance from the bottom */
   right: 20px; /* Distance from the right */
@@ -46,7 +67,7 @@
   background-color: $color-secondary; /* Button color */
   color: black;
   border: none;
-  border-radius: 5px;
+  border-radius: 50%;
   cursor: pointer;
   z-index: 1000; /* Ensure it stays above other elements */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);

@@ -4,7 +4,7 @@
 
 .promo__wrapper {
   position: relative;
-  min-height: 60vh;
+  min-height: 720px;
   width: 100%;
 }
 
@@ -52,16 +52,6 @@
   flex-flow: row nowrap;
   justify-content: center;
   padding-top: 280px;
-}
-
-.button_shop {
-  background-color: $color-secondary;
-  border-radius: 20px;
-}
-
-.button_shop:hover {
-  background-color: $color-text;
-  color: $color-secondary;
 }
 
 h1 {

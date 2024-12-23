@@ -1,0 +1,33 @@
+.review__wrapper {
+  background-color: $color-secondary;
+}
+
+.reviews {
+  height: 270px;
+  width: 380px;
+  background-color: $color-light;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+}
+
+.text_review {
+  padding: 20px;
+}
+
+.allstars {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.star svg {
+  fill: var($star-color, #000);
+  stroke: var($star-color, #000);
+  gap: 3px;
+}
+
+.m-svg-icon {
+  height: 16px;
+  width: 16px;
+}

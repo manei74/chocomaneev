@@ -2,3 +2,16 @@
   text-align: center;
   padding-bottom: 20px;
 }
+
+.bestsellers__img {
+  height: 400px;
+  width: 100%;
+  border-radius: 10%;
+}
+
+.bestsellers_items {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  gap: 20px;
+}

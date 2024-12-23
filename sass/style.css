@@ -75,7 +75,28 @@ h4 {
   color: #ffffff;
 }
 
+.button_shop {
+  background-color: #81a7cb;
+  border-radius: 20px;
+}
+
+.button_shop:hover {
+  background-color: #392e2c;
+  color: #81a7cb;
+}
+
+.button_allproducts {
+  background-color: #81a7cb;
+  border-radius: 20px;
+}
+
+.button_allproducts:hover {
+  background-color: #392e2c;
+  color: #81a7cb;
+}
+
 #backtotop {
+  display: none;
   position: fixed;
   bottom: 20px; /* Distance from the bottom */
   right: 20px; /* Distance from the right */
@@ -83,7 +104,7 @@ h4 {
   background-color: #81a7cb; /* Button color */
   color: black;
   border: none;
-  border-radius: 5px;
+  border-radius: 50%;
   cursor: pointer;
   z-index: 1000; /* Ensure it stays above other elements */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -140,8 +161,22 @@ h4 {
   color: #ffffff;
 }
 
-.footer__wrapper {
-  background-color: #81a7cb;
+.contact-us {
+  padding-top: 40px;
+  font-size: 1.2rem;
+}
+
+.footer-navigation {
+  padding-top: 20px;
+  font-size: 1.6rem;
+}
+
+.follow-us {
+  font-size: 1.6rem;
+}
+
+.footer__follow {
+  list-style: none;
 }
 
 .promo {
@@ -150,7 +185,7 @@ h4 {
 
 .promo__wrapper {
   position: relative;
-  min-height: 60vh;
+  min-height: 720px;
   width: 100%;
 }
 
@@ -193,16 +228,6 @@ h4 {
   padding-top: 280px;
 }
 
-.button_shop {
-  background-color: #81a7cb;
-  border-radius: 20px;
-}
-
-.button_shop:hover {
-  background-color: #392e2c;
-  color: #81a7cb;
-}
-
 h1 {
   display: flex;
   flex-flow: row nowrap;
@@ -220,6 +245,7 @@ h1 {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
+  gap: 20px;
 }
 
 p {
@@ -236,6 +262,53 @@ p {
 .bestsellers__buttons {
   text-align: center;
   padding-bottom: 20px;
+}
+
+.bestsellers__img {
+  height: 400px;
+  width: 100%;
+  border-radius: 10%;
+}
+
+.bestsellers_items {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.review__wrapper {
+  background-color: #81a7cb;
+}
+
+.reviews {
+  height: 270px;
+  width: 380px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+}
+
+.text_review {
+  padding: 20px;
+}
+
+.allstars {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.star svg {
+  fill: var(#e45200, #000);
+  stroke: var(#e45200, #000);
+  gap: 3px;
+}
+
+.m-svg-icon {
+  height: 16px;
+  width: 16px;
 }
 
 /*# sourceMappingURL=style.css.map */
