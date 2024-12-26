@@ -1,3 +1,9 @@
+@media (max-width: 1200px) {
+  .text_review {
+    display: none;
+  }
+}
+
 @media (max-width: 480px) {
   .assortment__img {
     height: 100px;
@@ -17,6 +23,6 @@
 
   .promo__wrapper {
     position: relative;
-    width: 480px;
+    /* width: 420px; */
   }
 }

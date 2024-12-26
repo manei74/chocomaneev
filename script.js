@@ -22,7 +22,7 @@ function updateVideoSource() {
   console.log(sourceElement);
   console.log(window.innerWidth);
 
-  if (window.innerWidth <= 490) {
+  if (window.innerWidth <= 430) {
     if (sourceElement.src !== window.location.origin + "/filem.mp4") {
       sourceElement.src = "finalm.mp4"; // Change to smaller video
       videoElement.load(); // Reload the video with the new source
