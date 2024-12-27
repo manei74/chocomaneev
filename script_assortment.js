@@ -1,13 +1,3 @@
-// const scImage = document.getElementById("spicy_citrus");
-
-// scImage.addEventListener("mouseover", () => {
-//   scImage.src = "img/sc_spicycitrus_slice.jpg";
-// });
-
-// scImage.addEventListener("mouseout", () => {
-//   scImage.src = "img/sc_spicycitrus.jpg";
-// });
-
 function changePicture(idElement) {
   const image = document.getElementById(idElement);
 
@@ -33,5 +23,3 @@ changePicture("truf_american");
 changePicture("truf_coconat");
 changePicture("truf_dark");
 changePicture("truf_dubai");
-
-// banana_almond;

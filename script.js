@@ -22,7 +22,7 @@ function updateVideoSource() {
   console.log(sourceElement);
   console.log(window.innerWidth);
 
-  if (window.innerWidth <= 430) {
+  if (window.innerWidth <= 500) {
     if (sourceElement.src !== window.location.origin + "/filem.mp4") {
       sourceElement.src = "finalm.mp4"; // Change to smaller video
       videoElement.load(); // Reload the video with the new source
@@ -40,3 +40,17 @@ window.addEventListener("load", updateVideoSource);
 
 // Run on window resize
 window.addEventListener("resize", updateVideoSource);
+
+const btnShopnow = document.getElementById("button_shop");
+
+btnShopnow.addEventListener("click", function () {
+  const telegramUrl = "https://www.t.me/chocomaneev";
+  window.open(telegramUrl, "_blank");
+});
+
+const btnAllproducts = document.getElementById("button_allproducts");
+
+btnAllproducts.addEventListener("click", function () {
+  const assortmentUrl = "assortment.html";
+  window.open(assortmentUrl, "_blank");
+});
