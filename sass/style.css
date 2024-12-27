@@ -41,6 +41,13 @@ h4 {
   justify-content: space-around;
 }
 
+.layout-4-column {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
 .button {
   font-family: "Roboto", Verdana, sans-serif;
   padding: 11px 25px 13px;
@@ -258,6 +265,18 @@ p {
   height: 200px;
   width: 100%;
   border-radius: 50%;
+}
+
+.assortment__imgpage {
+  height: 150px;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.assortment__imgfull {
+  height: 350px;
+  width: 100%;
+  border-radius: 10%;
 }
 
 .bestsellers__buttons {
